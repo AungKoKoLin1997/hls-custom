@@ -4,7 +4,7 @@
     "name": "Stock Production Lot Views Adjustments",
     "version": "12.0.1.0.0",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "category": "Stock",
     "license": "LGPL-3",
     "depends": ["product_expiry"],

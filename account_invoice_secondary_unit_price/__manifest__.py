@@ -4,7 +4,7 @@
     "name": "Account Invoice Secondary UoM Price",
     "version": "12.0.1.1.0",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "category": "Accounting",
     "license": "AGPL-3",
     "depends": ["account_invoice_secondary_unit"],

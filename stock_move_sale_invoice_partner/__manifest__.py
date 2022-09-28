@@ -4,7 +4,7 @@
     "name": "Display Customer and Invoice Address on Stock Move",
     "version": "12.0.1.0.0",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "category": "Stock",
     "license": "AGPL-3",
     "depends": ["stock", "sale_stock"],

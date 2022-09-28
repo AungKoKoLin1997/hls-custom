@@ -4,7 +4,7 @@
     "name": "Stock Report Scondary UoM ",
     "version": "12.0.1.0.1",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "category": "Stock",
     "license": "AGPL-3",
     "depends": ["sale_stock", "stock_secondary_unit", "product_expiry"],

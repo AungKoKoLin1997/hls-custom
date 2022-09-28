@@ -5,7 +5,7 @@
     "name": "Account Invoice Scondary UoM ",
     "version": "12.0.1.1.0",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "category": "Accounting",
     "license": "AGPL-3",
     "depends": ["account", "sale_order_secondary_unit"],
