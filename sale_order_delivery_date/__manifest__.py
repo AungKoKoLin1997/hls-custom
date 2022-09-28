@@ -4,7 +4,7 @@
     "name": "Sale Order Delivery Date",
     "version": "12.0.1.0.2",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "category": "Sale",
     "license": "LGPL-3",
     "depends": ["sale_stock"],

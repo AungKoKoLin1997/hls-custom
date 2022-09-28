@@ -4,7 +4,7 @@
     "name": "Stock Delivery Request Report",
     "version": "12.0.1.1.1",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "category": "Stock",
     "license": "AGPL-3",
     "depends": [

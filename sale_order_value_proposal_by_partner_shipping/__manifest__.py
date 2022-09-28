@@ -4,7 +4,7 @@
     "name": "Sale Order Value Proposal By Delivery Address",
     "version": "12.0.1.0.0",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "category": "Sales",
     "license": "LGPL-3",
     "depends": ["delivery"],

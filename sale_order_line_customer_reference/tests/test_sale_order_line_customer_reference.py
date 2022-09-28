@@ -34,6 +34,6 @@ class TestSaleOrderLineCustomerReference(SavepointCase):
         invoice_line = invoice.invoice_line_ids.filtered(
             lambda i: i.product_id == self.test_product
         )
-        self.assertEquals(
+        self.assertEqual(
             invoice_line.client_order_ref, self.order_line.client_order_ref
         )

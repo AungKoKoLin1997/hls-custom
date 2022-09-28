@@ -4,7 +4,7 @@
     "name": "Sale Order Invoice Address Propose",
     "version": "12.0.1.0.2",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "category": "Sales",
     "license": "AGPL-3",
     "depends": ["sale_stock", "sale_view_adj_hls"],

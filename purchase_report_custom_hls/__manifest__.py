@@ -5,7 +5,7 @@
     "version": "12.0.1.0.0",
     "category": "Purchase",
     "author": "Quartile Limited",
-    "website": "https://www.quartile.co",
+    "website": "https://www.quartile.co/",
     "license": "AGPL-3",
     "installable": True,
     "depends": ["purchase_stock", "report_common_hls", "purchase_order_secondary_unit"],

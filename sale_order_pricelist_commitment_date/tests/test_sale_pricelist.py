@@ -47,7 +47,7 @@ class TestWebsiteSaleComment(common.TransactionCase):
 
     def test_compute_price_rule(self):
         """
-            This function will check the commitment date is passed correctly or not.
+        This function will check the commitment date is passed correctly or not.
         """
         self.sale_order.write(
             {
@@ -70,7 +70,7 @@ class TestWebsiteSaleComment(common.TransactionCase):
         self.sale_order.onchange_commitment_date()
 
         # it will check the commitment data with value of context commitement date
-        self.assertEquals(
+        self.assertEqual(
             self.so_line._context["commitment_date"],
             self.commitment_date,
             "In Compute Price rule the commitment date pass date through context",
@@ -78,7 +78,7 @@ class TestWebsiteSaleComment(common.TransactionCase):
 
         # it will compare the price unit with updated
         # price unit based on commitment date
-        self.assertEquals(
+        self.assertEqual(
             self.so_line.price_unit,
             100,
             "It compare the price unit with fixed price in price list.",
@@ -86,8 +86,8 @@ class TestWebsiteSaleComment(common.TransactionCase):
 
     def test_onchange_commitment_date(self):
         """
-            This function will check the price unit based
-             on price list and commitment date.
+        This function will check the price unit based
+         on price list and commitment date.
         """
         self.so_line = self.SaleOrderLine.create(
             {
@@ -102,7 +102,7 @@ class TestWebsiteSaleComment(common.TransactionCase):
 
         # Compare the Sale Order line
         # price unit with original price unit
-        self.assertEquals(
+        self.assertEqual(
             self.so_line.price_unit,
             self.product_id.list_price,
             "It will check with original product price"
@@ -119,7 +119,7 @@ class TestWebsiteSaleComment(common.TransactionCase):
 
         # Compare the Sale Order line price unit with updated price list
         # which check does the commitment date covers this or not
-        self.assertEquals(
+        self.assertEqual(
             self.so_line.price_unit,
             100,
             "It compare the price unit with fixed price in price list.",
@@ -131,7 +131,7 @@ class TestWebsiteSaleComment(common.TransactionCase):
         # Compare the Sale Order line price unit with product list price
         # it not covers the commitment date
         # it should be original product price unit on so line
-        self.assertEquals(
+        self.assertEqual(
             self.so_line.price_unit,
             self.product_id.list_price,
             "It will check with original product price"

@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
 
     <record id="invoice_form" model="ir.ui.view">
         <field name="name">account.invoice.form</field>
         <field name="model">account.invoice</field>
-        <field name="inherit_id" ref="account.invoice_form"/>
+        <field name="inherit_id" ref="account.invoice_form" />
         <field name="arch" type="xml">
             <xpath expr="//field[@name='payment_term_id']" position="after">
-                <field name="monthly_invoice"/>
-                <field name="doc_title"/>
+                <field name="monthly_invoice" />
+                <field name="doc_title" />
             </xpath>
             <xpath expr="//field[@name='date_invoice']" position="after">
-                <label for="date_from" string="Date Range" attrs="{'invisible': [('monthly_invoice', '=', False)]}"/>
+                <label
+                    for="date_from"
+                    string="Date Range"
+                    attrs="{'invisible': [('monthly_invoice', '=', False)]}"
+                />
                 <div attrs="{'invisible': [('monthly_invoice', '=', False)]}">
-                    <field name="date_from" class="oe_inline"/>
+                    <field name="date_from" class="oe_inline" />
                     <span> - </span>
-                    <field name="date_to" class="oe_inline"/>
+                    <field name="date_to" class="oe_inline" />
                 </div>
             </xpath>
         </field>
